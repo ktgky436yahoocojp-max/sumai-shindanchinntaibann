@@ -551,14 +551,14 @@ const CHINTAI_CATEGORY_COMMENTS = {
 };
 
 function getChintaiRiskType(worstCat) {
-  if (!worstCat) return { emoji:"🌱", name:"安心維持型", num:1 };
-  if (worstCat.includes("防災")) return { emoji:"🌊", name:"災害脆弱型", num:2 };
-  if (worstCat.includes("物件")) return { emoji:"🏚️", name:"物件老朽型", num:3 };
-  if (worstCat.includes("家賃")||worstCat.includes("老後")) return { emoji:"💸", name:"家賃圧迫型", num:4 };
-  if (worstCat.includes("契約")) return { emoji:"📜", name:"契約不安定型", num:5 };
-  if (worstCat.includes("立退き")) return { emoji:"🚨", name:"立退きリスク型", num:6 };
-  if (worstCat.includes("孤立")) return { emoji:"🤝", name:"孤立リスク型", num:7 };
-  if (worstCat.includes("住み続ける")) return { emoji:"🪜", name:"生活継続困難型", num:8 };
-  if (worstCat.includes("地域")) return { emoji:"🏘️", name:"住み替え困難型", num:9 };
-  return { emoji:"⚠️", name:"複合リスク型", num:10 };
+  if (!worstCat) return { emoji:"🌱", name:"安心維持型", num:21 };
+  if (worstCat.includes("防災")) return { emoji:"🌊", name:"災害脆弱型", num:22 };
+  if (worstCat.includes("物件")) return { emoji:"🏚️", name:"物件老朽型", num:23 };
+  if (worstCat.includes("家賃")||worstCat.includes("老後")) return { emoji:"💸", name:"家賃圧迫型", num:24 };
+  if (worstCat.includes("契約")) return { emoji:"📜", name:"契約不安定型", num:25 };
+  if (worstCat.includes("立退き")) return { emoji:"🚨", name:"立退きリスク型", num:26 };
+  if (worstCat.includes("孤立")) return { emoji:"🤝", name:"孤立リスク型", num:27 };
+  if (worstCat.includes("住み続ける")) return { emoji:"🪜", name:"生活継続困難型", num:28 };
+  if (worstCat.includes("地域")) return { emoji:"🏘️", name:"住み替え困難型", num:29 };
+  return { emoji:"⚠️", name:"複合リスク型", num:30 };
 }
